@@ -4,65 +4,81 @@
     <meta charset="utf-8">
     <meta name="author" content="Douglas Modena">
     <meta name="description" content="Filme Ela (2013)">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ela (2013)</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/app.js">
   </head>
   <body>
     <main itemscope itemtype="http://schema.org/Movie">
       <h1>Filme</h1>
       <article>
-        <h2 itemprop="name">Ela</h2>
-        <dl>
-          <dt>Título original</dt>
-          <dd itemprop="name" lang="en-us">Her</dd>
+        <section id="info">
+          <h2 itemprop="name">Ela</h2>
+          <dl>
+            <dt>Título original</dt>
+            <dd itemprop="name" lang="en-us">Her</dd>
 
-          <dt>Ano de produção</dt>
-          <dd itemprop="dateCreated">2013</dd>
+            <dt>Ano de produção</dt>
+            <dd itemprop="dateCreated">2013</dd>
 
-          <dt>País de origem</dt>
-          <dd itemprop="countryOfOrigin">Estados Unidos</dd>
+            <dt>País de origem</dt>
+            <dd itemprop="countryOfOrigin">Estados Unidos</dd>
 
-          <dt>Gêneros</dt>
-          <dd>
-            <ul>
-              <li itemprop="genre">Drama</li>
-              <li itemprop="genre">Romance</li>
-              <li itemprop="genre">Ficção Científica</li>
-            </ul>
-          </dd>
+            <dt>Gêneros</dt>
+            <dd>
+              <ul>
+                <li itemprop="genre">Drama</li>
+                <li itemprop="genre">Romance</li>
+                <li itemprop="genre">Ficção Científica</li>
+              </ul>
+            </dd>
 
-          <dt>Recomendação de idade</dt>
-          <dd itemprop="contentRating">18 anos</dd>
+            <dt>Recomendação de idade</dt>
+            <dd itemprop="contentRating">18 anos</dd>
 
-          <dt>Diretor</dt>
-          <dd itemprop="director">Spike Jonze</dd>
+            <dt>Diretor</dt>
+            <dd itemprop="director">Spike Jonze</dd>
 
-          <dt>Elenco</dt>
-          <dd>
-            <ul>
-              <li><span itemprop="actor">Joaquin Phoenix</span> - <span itemprop="character">Theodore</span></li>
-              <li><span itemprop="actor">Chris Pratt</span> - <span itemprop="character">Paul</span></li>
-              <li><span itemprop="actor">Rooney Mara</span> - <span itemprop="character">Catherine</span></li>
-            </ul>
-          </dd>
-        </dl>
+            <dt>Elenco</dt>
+            <dd>
+              <ul>
+                <li><span itemprop="actor">Joaquin Phoenix</span> - <span itemprop="character">Theodore</span></li>
+                <li><span itemprop="actor">Chris Pratt</span> - <span itemprop="character">Paul</span></li>
+                <li><span itemprop="actor">Rooney Mara</span> - <span itemprop="character">Catherine</span></li>
+              </ul>
+            </dd>
+          </dl>
+        </section>
 
-        <figure>
-          <img itemprop="image" src="./img/poster.jpg" alt="Poster do filme">
-          <figcaption>Poster do filme</figcaption>
-        </figure>
+        <section id="poster">
+          <figure>
+            <img itemprop="image" src="./img/poster.jpg" alt="Poster do filme">
+            <figcaption>Poster do filme</figcaption>
+          </figure>
+        </section>
 
-        <ul>
-          <li><img itemprop="image" src="./img/img1.jpg" alt="Movie image 1"></li>
-          <li><img itemprop="image" src="./img/img2.jpg" alt="Movie image 2"></li>
-          <li><img itemprop="image" src="./img/img3.jpg" alt="Movie image 3"></li>
-          <li><img itemprop="image" src="./img/img4.jpg" alt="Movie image 4"></li>
-        </ul>
+        <section id="imagens">
+          <h3>Imagens do filme</h3>
+          <ul>
+            <li class="active"></li>
+            <li><img itemprop="image" src="./img/img1.jpg" alt="Movie image 1"></li>
+            <li><img itemprop="image" src="./img/img2.jpg" alt="Movie image 2"></li>
+            <li><img itemprop="image" src="./img/img3.jpg" alt="Movie image 3"></li>
+            <li><img itemprop="image" src="./img/img4.jpg" alt="Movie image 4"></li>
+          </ul>
+        </section>
 
-        <iframe itemprop="trailer" width="560" height="315" src="https://www.youtube-nocookie.com/embed/hX09Kz7BAlU" allowfullscreen></iframe>
+        <section id="trailer">
+          <h3>Trailer</h3>
+          <iframe itemprop="trailer" width="560" height="315" src="https://www.youtube-nocookie.com/embed/hX09Kz7BAlU" allowfullscreen></iframe>
+        </section>
 
-        <p>Theodore (Joaquin Phoenix) é um escritor solitário, que acaba de comprar um novo sistema operacional para seu computador. Para a sua surpresa, ele acaba se apaixonando pela voz deste programa informático, dando início a uma relação amorosa entre ambos. Esta história de amor incomum explora a relação entre o homem contemporâneo e a tecnologia.</p>
+        <section id="sinopse">
+          <h3>Sinopse</h3>
+          <p>Theodore (Joaquin Phoenix) é um escritor solitário, que acaba de comprar um novo sistema operacional para seu computador. Para a sua surpresa, ele acaba se apaixonando pela voz deste programa informático, dando início a uma relação amorosa entre ambos. Esta história de amor incomum explora a relação entre o homem contemporâneo e a tecnologia.</p>
+        </section>
       </article>
     </main>
   </body>

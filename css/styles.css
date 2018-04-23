@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #FFCDE6;
+}
+
+main {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+article {
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #FF99E6;
+  color: #DD1D36;
+}
+
+section {
+  margin-top: 1em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0.1em 0.3em;
+}
+
+dl dt {
+  display: inline-block;
+  font-weight: bold;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#imagens ul {
+  position: relative;
+}
+
+#imagens li {
+  list-style: none;
+}
+
+#imagens li.active {
+  position: relative;
+  float: right;
+}
+
+#imagens .active img {
+  width: 70%;
+}
+
+#imagens img {
+    width: 30%;
+}
+
+#trailer iframe {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  border: none;
+  margin: 0 auto;
+}
+
+#sinopse p {
+  text-align: justify;
+}
